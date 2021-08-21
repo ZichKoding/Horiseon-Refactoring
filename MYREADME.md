@@ -11,6 +11,6 @@ The style.css file had a few changes, as well. The first change was changing the
 
 **<u>08/21/2021</u>**
 
-Index.html under the `<section class="content">`, I have added alt attributes to the `<img>`. Replaced the `<div class="benefits">` with `<section class="benefits">` for better semantics and to avoid having a div soup for this section. 
+Index.html under the `<section class="content">`, I have added alt attributes to the `<img>`. Replaced the `<div class="benefits">` with `<section class="benefits">` for better semantics and to avoid having a div soup for this section. Benefits section I have added alt attributes to the images, but left them blank due to not knowing how to describe these images or if they are worth describing. In the benefits section I have took away the classes except for `benefits`. The `<div class="footer">` was replaced by the semantic tag, `<footer>`.
 
-In style.css the class selectors, `search-engine-optimization`, `online-reputation-management`, `social-media-marketing`, and they're `img` and `h2` selectors have been compiled into three classes; `content div`, `content div img`, `content div h2`.
+In style.css the class selectors, `search-engine-optimization`, `online-reputation-management`, `social-media-marketing`, and they're `img` and `h2` selectors have been compiled into three classes; `content div`, `content div img`, `content div h2`. There was a similar section under benefits and I compiled the 9 classes into 3 classes called, `.benefits div`, `.benefits div h3`, and `benefits div img`.
