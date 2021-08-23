@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
     <head>
         <meta charset="UTF-8" />
         <link rel="stylesheet" href="./assets/css/style.css" />
-        <!--Changed the title from "website" to "Horiseon"-->
         <title>Horiseon</title>
     </head>
 
     <body>
-        <!-- Took away the <div class="header"> and added the actual <header> tag. -->
+        <!-- Header and Navigation -->
         <header>
             <h1>Hori<span class="seo">seo</span>n</h1>
             <!-- Replacing div with <nav> for better semantics. -->
@@ -28,13 +26,12 @@
             </nav>
         </header>
 
+        <!-- Hero Section-->
         <section class="hero"></section>
 
-        <!-- Changing the <div class="content" to <section class="content". -->
+        <!-- Content Section -->
         <section class="content">
-            <!-- Had to add the id="search-enging-optimization" so the nav section will work correctly. -->
             <div id="search-engine-optimization">
-                <!-- Added an alt to describe the image. -->
                 <img src="./assets/images/search-engine-optimization.jpg" alt="SEO notebook on a desk with coffee, laptop magnifying glass, and pens in a cup on a table." class="float-left" />
                 <h2>Search Engine Optimization</h2>
                 <p>
@@ -42,7 +39,6 @@
                 </p>
             </div>
             <div id="online-reputation-management">
-                <!--Added an alt to describe the image. -->
                 <img src="./assets/images/online-reputation-management.jpg" alt="A person holding a phone with laptop that says reputation with a bar graph on its screen." class="float-right" />
                 <h2>Online Reputation Management</h2>
                 <p>
@@ -50,7 +46,6 @@
                 </p>
             </div>
             <div id="social-media-marketing">
-                <!-- Added an alt to describe the image. -->
                 <img src="./assets/images/social-media-marketing.jpg" alt="People in a Social Media Marketing meeting sharing ideas." class="float-left" />
                 <h2>Social Media Marketing</h2>
                 <p>
@@ -59,11 +54,10 @@
             </div>
         </section>
 
-        <!-- Replaced the div with section to avoid a div soup in this section. -->
+        <!-- Benefits Section -->
         <section class="benefits">
             <div>
                 <h3>Lead Generation</h3>
-                <!-- Making the alt attributes blank. Not sure how to describe them or if they even really need to be described. -->
                 <img src="./assets/images/lead-generation.png" alt="" />
                 <p>
                     Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
@@ -84,7 +78,8 @@
                 </p>
             </div>
         </section>
-        <!--Replaced the <div class="footer"> with the semantic tag <footer>.-->
+        
+        <!-- Footer Section -->
         <footer>
             <h2>Made with ❤️️ by Horiseon</h2>
             <p>

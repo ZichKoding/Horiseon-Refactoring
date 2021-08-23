@@ -9,7 +9,6 @@ body {
 }
 
 /* Header style begins */
-/* Took away all of the periods so its now a element selector and not a class selector.  */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -21,11 +20,11 @@ header h1 {
     display: inline-block;
     font-size: 48px;
 }
-/* Removing the unnecessary element selectors, header and h1, and leaving the class selector, .seo*/
+
 .seo {
     color: #d9dcd6;
 }
-/* Replaced div with nav */
+
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -64,6 +63,7 @@ p {
 }
 /* Hero style ends */
 
+/* Utilities begins */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -73,6 +73,7 @@ p {
     float: right;
     margin-left: 25px;
 }
+/* Utilities ends */
 
 /* Content section style begins */
 .content {
@@ -130,7 +131,6 @@ p {
 /* Benefits section style ends */
 
 /* Footer style begins */
-/* Took away the . so its not a class selector, but an element selector. */
 footer {
     padding: 30px;
     clear: both;
