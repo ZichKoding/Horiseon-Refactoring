@@ -1,6 +1,10 @@
 # **Horiseon Refactoring**
 
-I am updating the code base for better semantics, logical structure independent of styling and positioning, accessible alt attributes, sequential order, and a concise descriptive title. 
+I have been assigned to update the codebase for better semantics, logical structure independent of styling and positioning, accessible alt attributes, and sequential order. This is to be more modern for people visiting the site that rely on text-to-speech technology to read the site, or anyone else that uses assistive technology. 
+
+[Horiseon's website](https://zichkoding.github.io/Horiseon-Refactoring)
+
+![Top of Horiseon Website](./assets/images/Horiseon.png)
 
 ## **Progress**
 **<u>08/20/2021</u>**
